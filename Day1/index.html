@@ -20,13 +20,18 @@
             background: linear-gradient(135deg, #1c2031, #a29e4b);
         }
 
+        #sign-up{
+            display: flex;
+            justify-content: center;
+        }
+
         .form-container {
             background-color: white;
             padding: 2rem;
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
             width: 650px;
-            text-align: center;
+            text-align: left;
         }
 
         .form-container h2 {
@@ -62,7 +67,7 @@
             width: 100%;
             padding: 0.8rem;
             background-color: #dcd635;
-            color: black;
+            color: rgb(67, 64, 64);
             border: none;
             border-radius: 6px;
             font-size: 1rem;
@@ -72,6 +77,7 @@
 
         .form-container button:hover {
             background-color: #eac317;
+            color: black;
         }
 
         .form-links {
@@ -106,6 +112,10 @@
             margin-right: 10px;
         }
 
+        .birth-date{
+            margin-bottom: 1rem;
+        }
+
         .upload-file{
             display: flex;
             margin-bottom: 1rem;
@@ -124,7 +134,7 @@
 <body>
 
     <div class="form-container">
-        <h2>Sign up!</h2>
+        <h2 id="sign-up">Sign up!</h2>
         <form>
             <div class="input-group">
                 <input type="text" placeholder="First Name" required>
@@ -155,6 +165,11 @@
                 </form>
             </div>
 
+            <div class="birth-date">
+                <label for="birthday">Date of birth:</label>
+                <input type="date" id="birthday" name="birthday">
+            </div>
+
             <div class="hobbies">
                 <label for="hobbies">Your Hobbies:</label>
                 <select width=300 style="width: 350px" size="4" multiple>
@@ -173,7 +188,7 @@
             <div class="upload-file">
                 Upload profile photo:
                 <form>
-                    <input type="file" id="myFile" name="filename" accept="image/*">
+                    <input type="file" accept="image/*">
                     <input type="submit">
                 </form>
             </div>
@@ -181,7 +196,7 @@
             <input id="agree-checkbox" type="checkbox" value="Agreed">
             <label>Yes, I agree to the terms and conditions.</label><br>
 
-            <button type="submit">Login</button>
+            <button type="submit">Sign up</button>
         </form>
 
         <div class="form-links">

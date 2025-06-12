@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+
+body {
+    padding: 2rem;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.nav-part2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.nav-part2 span{
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+
+#photo{
+    position: absolute;
+    height: 70%;
+    padding-left: 4rem;
+}
+
+#grid{
+    padding-left: 15rem;
+    padding-top: 15rem;
+}
+
+.images-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.hero-part2{
+    text-align: center;
+}
+
+.hero-part2 h1{
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+p{
+    color: grey;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+p, .contact{
+    font-family: sans-serif;
+}
+
+.buttons{
+    margin-bottom: 4rem;
+}
+
+button{
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#email-button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#join-button{
+    background-color: black;
+    color: white;
+}
+
+.groups *{
+    margin: 0.5rem;
+}
+

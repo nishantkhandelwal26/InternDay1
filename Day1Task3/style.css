@@ -1,0 +1,59 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2B2822;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-part1{
+    margin-left: 2rem;
+}
+
+.nav-part2 span{
+    color: #8A8986;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.nav-part2 span:hover{
+    color: white;
+}
+
+.nav-part2 button{
+    margin-right: 5rem;
+    background-color: transparent;
+    padding: 1rem;
+    border: 2px solid #9D8D35;
+    color: #9D8D35;
+    border-radius: 2rem;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-part1{
+    margin-right: 4rem;
+    font-size: 30px;
+}
+
+.hero-part2{
+    font-size: x-large;
+}
+
+.img-part{
+    width: 100%;
+    height: 50vh;
+    background-image: url(assets/justice.jpg);
+    background-size: cover;       /* Ensures the image covers the area */
+    background-position: center;  /* Centers the image */
+    background-repeat: no-repeat;
+}
